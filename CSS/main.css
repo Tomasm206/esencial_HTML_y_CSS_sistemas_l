@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 .hero {
   width: 100%;
   height: 350px;
@@ -10,4 +15,59 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 60px;
+}
+
+.p_principal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.navegacion {
+  width: 15%;
+  float: left;
+  padding: 40px;
+  list-style: inside;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+summary {
+  font-size: 20px;
+}
+
+#container {
+  padding: 40px;
+  width: calc(75% - 40px);
+  float: left;
+}
+
+.raya {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.t_setup {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.box_model {
+  list-style: inside;
+}
+
+.clearfix {
+  clear: both;
+}
+.footer {
+  color: white;
+  background-color: black;
+  height: 150px;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  padding-top: 30px;
 }
